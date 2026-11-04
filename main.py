@@ -65,7 +65,7 @@ def parse_args():
         "-l", "--list", type=str, default=None, help="要学习的课程ID列表, 以 , 分隔"
     )
     parser.add_argument(
-        "-s", "--speed", type=float, default=1.0, help="视频播放倍速 (默认1, 最大2)"
+        "-s", "--speed", type=float, default=2.0, help="视频播放倍速 (默认1, 最大2)"
     )
     parser.add_argument(
         "-j", "--jobs", type=int, default=4, help="同时进行的章节数 (默认4, 如果一个章节有多个任务点，不会限制同时处理任务点的数量)"
